@@ -1,0 +1,16 @@
+version: 0.2
+phases:
+  pre_build:
+    Commands:
+    - echo "Entered the pre-build phase"
+  build:
+    commands:
+    - echo "Entered bulid phase"
+    - mvn clean prepare-package war:exploded
+  post_build:
+    commands:
+    - echo "enter the post bulid phase"
+    - mv target/deploy ./
+artifacts:
+  files:
+    -deploy/**/*
