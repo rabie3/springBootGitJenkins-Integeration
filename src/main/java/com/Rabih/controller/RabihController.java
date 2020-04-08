@@ -9,6 +9,6 @@ public class RabihController {
 	@GetMapping("/")
 public String getMessage()
 {
-	return "Welcome to new branch";
+	return "Welcome to new branch with one change";
 }
 }
