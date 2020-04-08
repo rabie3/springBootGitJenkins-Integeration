@@ -4,11 +4,11 @@ phases:
     Commands:
     - echo "Entered the pre-build phase"
   build:
-    commands:
+    Commands:
     - echo "Entered bulid phase"
     - mvn clean prepare-package war:exploded
   post_build:
-    commands:
+    Commands:
     - echo "enter the post bulid phase"
     - mv target/deploy ./
 artifacts:
