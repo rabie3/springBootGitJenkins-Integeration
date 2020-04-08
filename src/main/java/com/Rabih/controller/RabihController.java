@@ -9,6 +9,6 @@ public class RabihController {
 	@GetMapping("/")
 public String getMessage()
 {
-	return "Welcome to git and jenkins inteagration";
+	return "Welcome to git and jenkins inteagration with update";
 }
 }
