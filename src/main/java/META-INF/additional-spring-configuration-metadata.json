@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "artifacts",
+    "type": "java.lang.String",
+    "description": "A description for 'artifacts'"
+  },
+  {
+    "name": "phases",
+    "type": "java.lang.String",
+    "description": "A description for 'phases'"
+  },
+  {
+    "name": "version",
+    "type": "java.lang.String",
+    "description": "A description for 'version'"
+  }
+]}
