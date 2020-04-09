@@ -13,7 +13,7 @@ public String getMessage()
 {
 	return "Welcome to GitAWSCodeDep;oy";
 }
-	@GetMapping("/")
+	@GetMapping("/root")
 	public String getAWS()
 	{
 		return "welcome to AWS";
